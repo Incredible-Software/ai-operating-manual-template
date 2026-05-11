@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local AI tool configs
+.cursor/
+.claude/
+
+# Drafts and scratch
+drafts/
+scratch/
+*.draft.md
