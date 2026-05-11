@@ -1,15 +1,105 @@
-# [Your Company Name] — Voice & Writing Style
+# [Your Company Name] — Brand
 
 <!-- 
-INSTRUCTIONS: This file tells AI tools (and new staff) how your business writes. 
-Cover external communication — emails, proposals, reports, social posts.
+INSTRUCTIONS: This file tells AI tools (and new staff) what your brand looks like and how it sounds. 
+Cover the visual identity (logo, colours, fonts, imagery) AND the way you write.
 
 The easiest way: run the build-operating-manual skill (in skills/build-operating-manual/). 
 It will interview you and draft this file for you. Paste its output here, replacing this 
-template content.
+template content. You can fill in the visual assets yourself afterwards — those need files 
+and hex codes, not interviews.
 
 Reference: see the Anka Civil example at https://github.com/Incredible-Software/ai-brain-demo
 -->
+
+---
+
+# Part 1 — Visual identity
+
+## Logo
+
+<!-- 
+Describe your logo so an AI can recognise it, place it correctly, and know when NOT to use it.
+Drop logo files into an /assets/logos/ folder in this repo and reference them by filename below.
+-->
+
+- **Primary logo:** `assets/logos/[filename].svg` — [one-line description: e.g., "wordmark in navy on transparent background"]
+- **Secondary / mark:** `assets/logos/[filename].svg` — [e.g., "icon only, for favicons and avatars"]
+- **Reversed (for dark backgrounds):** `assets/logos/[filename].svg`
+- **Minimum size:** [e.g., "24px height on screen, 15mm in print"]
+- **Clear space:** [e.g., "leave space equal to the height of the 'I' on all sides"]
+- **Never:** [e.g., "stretch, recolour, add effects, place on busy photos without a backing"]
+
+## Colour palette
+
+<!-- 
+Hex codes are the most important thing here. AI tools can use them directly for code, 
+designs, decks, and social images.
+-->
+
+**Primary**
+
+- **[Colour name]** `#XXXXXX` — [where to use, e.g., "headlines, logo, primary buttons"]
+- **[Colour name]** `#XXXXXX` — [where to use]
+
+**Secondary / accent**
+
+- **[Colour name]** `#XXXXXX` — [where to use, e.g., "highlights, links, callouts"]
+- **[Colour name]** `#XXXXXX` — [where to use]
+
+**Neutrals**
+
+- **[Colour name]** `#XXXXXX` — [e.g., "body text"]
+- **[Colour name]** `#XXXXXX` — [e.g., "borders, dividers"]
+- **[Colour name]** `#XXXXXX` — [e.g., "background tint"]
+
+**Rules**
+
+- [e.g., "Never use primary colours together at full saturation — pair one with a neutral."]
+- [e.g., "Accent colour appears on no more than 10% of any layout."]
+
+## Typography
+
+<!-- 
+Name the fonts and where each is used. If they're paid or licensed, say so — the AI shouldn't 
+suggest them for places you can't legally use them (e.g., embedded in a web page).
+-->
+
+- **Headlines:** [Font name], [weight], [licence — e.g., "Google Fonts, free to embed"]
+- **Body:** [Font name], [weight], [licence]
+- **UI / system fallback:** [e.g., "system-ui, -apple-system, sans-serif"]
+- **Never:** [e.g., "Comic Sans, Papyrus, Arial, default Word fonts"]
+
+**Sizing**
+
+- [e.g., "Headlines: 32–48px on web, 24pt+ in print"]
+- [e.g., "Body: 16px minimum on web, 11pt minimum in print"]
+
+## Imagery & photography
+
+<!-- 
+What does an on-brand image look like? What should the AI choose when generating or selecting 
+stock photos, illustrations, or hero images?
+-->
+
+- **Style:** [e.g., "natural light, candid, real staff and real worksites — no stock smiles"]
+- **Subjects:** [e.g., "people doing the work, not posed handshakes"]
+- **Composition:** [e.g., "wide, uncluttered, single focal point"]
+- **Treatment:** [e.g., "minimal filter, true colour, no heavy presets"]
+- **Never:** [e.g., "generic stock imagery, AI-generated faces, abstract corporate gradients"]
+
+## Other brand assets
+
+<!-- Anything else that matters: icon set, illustration style, slide template, email signature, document templates, packaging. Reference filenames in /assets/. -->
+
+- **Icons:** [e.g., "Lucide, stroke 1.5px, primary navy"] — `assets/icons/`
+- **Slide template:** `assets/templates/[filename].pptx`
+- **Email signature:** `assets/templates/email-signature.html`
+- **[Other]:** `assets/[path]`
+
+---
+
+# Part 2 — Voice & writing style
 
 ## Three words for our tone
 

@@ -14,7 +14,7 @@
 |---|---|
 | `START-HERE.md` | One-page guide. Read this first. |
 | `COMPANY.md` | Who you are, what you do, who you serve |
-| `BRAND.md` | How you sound and write |
+| `BRAND.md` | How you look (logo, colours, fonts) and how you sound |
 | `PROCESSES.md` | How you do common things (templates, rules) |
 | `GLOSSARY.md` | Internal codes, abbreviations, terminology |
 | `skills/build-operating-manual/SKILL.md` | The interview skill — drafts your manual for you |
@@ -42,7 +42,7 @@ Create a new GPT. Upload your files in "Knowledge". Paste BRAND.md into "Instruc
 ## When to update each file
 
 - **COMPANY.md** — when the firm changes (new office, principals, services)
-- **BRAND.md** — when the way you write changes (rare)
+- **BRAND.md** — when visual identity changes (logo, colours, fonts) or the way you write changes (rare)
 - **PROCESSES.md** — when how you do something changes (often after a retro)
 - **GLOSSARY.md** — whenever a new code or acronym becomes standard
 - **skills/** — when you identify a new repeated task worth documenting
